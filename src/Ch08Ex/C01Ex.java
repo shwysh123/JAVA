@@ -15,7 +15,7 @@ public class C01Ex {
 			//사람 발톱 융털 헤모글로빈 아밀라아제 모공 각질 눈꼽 뉴런
 			//  소화 혈의색발현 음식물에대한 화학작용 쓸모없는 구녕 피부보호 쓰레기뭉친 쓰레기 신경반응
 		
-			C01Car car = new C01Car();
+			C02Car car = new C02Car();
 			car.onwer = "질레트 퓨전";
 			car.speed = 5;
 			car.oil = 100;
