@@ -16,6 +16,7 @@ class C02Engine{
 		Æø¹ß();
 		¹è±â();
 	}
+	
 }
 
 class C02Car{
