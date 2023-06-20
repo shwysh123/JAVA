@@ -12,18 +12,22 @@ class C04GUI extends JFrame{
 		
 		JPanel panel = new JPanel();
 		panel.setLayout(null);
-		JButton btn1 = new JButton("살다");
+		JButton btn1 = new JButton("저장하기");
 		btn1.setBounds(10,10,100,50);
-		JButton btn2 = new JButton("죽다");
+		JButton btn2 = new JButton("수정하기");
 		btn2.setBounds(120,10,100,50);
+		JButton btn3 = new JButton("삭제하기");
+		btn3.setBounds(230,10,100,50);
+		
 		
 		
 		JTextField txt1 = new JTextField();
-		txt1.setBounds(10,50, 100, 30);
+		txt1.setBounds(200,200, 200, 200);
 		
 		
 		panel.add(btn1);
 		panel.add(btn2);
+		panel.add(btn3);
 		panel.add(txt1);
 		
 		add(panel);

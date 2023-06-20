@@ -7,17 +7,18 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-class 글쓰기 extends JFrame {
-	글쓰기(){
+class 수정 extends JFrame {
+	수정(){
 		super("다 같이 게시판");
 		setBounds(900,900,900,900);
 		setResizable(false);
 		
 		JPanel panel = new JPanel();
 		panel.setLayout(null);
-		JButton btn2 = new JButton("글쓰기");
-		btn2.setBounds(650,810,100,25);
-	
+		JButton btn2 = new JButton("수정하기");
+		btn2.setBounds(530,810,100,25);
+		JButton btn3 = new JButton("삭제하기");
+		btn3.setBounds(650,810,100,25);
 		
 		JTextField txt1 = new JTextField();
 		txt1.setBounds(150,150,600,650);
@@ -25,7 +26,7 @@ class 글쓰기 extends JFrame {
 		txt2.setBounds(150,100,600,40);
 		
 		panel.add(btn2);
-		
+		panel.add(btn3);
 		panel.add(txt1);
 		panel.add(txt2);
 		
@@ -41,10 +42,11 @@ class 글쓰기 extends JFrame {
 	}
 }
 
-public class Main {
+
+public class 수정삭제하기 {
 	public static void main(String[] args) {
 
-		new 글쓰기();
+		new 수정();
 
 	}
 }
